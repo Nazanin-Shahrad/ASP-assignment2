@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+    <UserSecretsId>aspnet-NazaninBookStore-12173C46-D3D1-4C9F-A408-DA3D11FB1E00</UserSecretsId>
+    <CopyRefAssembliesToPublishDirectory>false</CopyRefAssembliesToPublishDirectory>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Update="app.db" CopyToOutputDirectory="PreserveNewest" ExcludeFromSingleFile="true" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore" Version="5.0.11" />
+    <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="5.0.11" />
+    <PackageReference Include="Microsoft.AspNetCore.Identity.UI" Version="5.0.11" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation" Version="5.0.11" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="5.0.11" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="5.0.11" />
+  </ItemGroup>
+
+</Project>
